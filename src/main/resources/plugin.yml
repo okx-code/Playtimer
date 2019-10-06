@@ -1,0 +1,8 @@
+name: Playtimer
+api-version: '1.14'
+version: ${version}
+main: sh.okx.playtimer.PlaytimerPlugin
+commands:
+  playtime:
+    description: Show your playtime
+    permission: playtimer.command.playtime
